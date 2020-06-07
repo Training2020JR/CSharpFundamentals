@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "gradebook": {
+      "commandName": "Project",
+      "commandLineArgs": "Joao"
+    }
+  }
+}
