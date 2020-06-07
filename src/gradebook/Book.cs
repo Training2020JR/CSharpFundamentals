@@ -5,7 +5,7 @@ using System.Transactions;
 
 namespace gradebook
 {
-    class Book
+    public class Book
     {
         private List<double> grades;
         private string name;
@@ -14,6 +14,27 @@ namespace gradebook
         {
             this.grades = new List<double>();
             this.name = name;
+        }
+
+        public Statistic GetStatistics()
+        {
+            var lowestGrade = double.MaxValue;
+            var highestGrade = double.MinValue;
+
+            double gradetmp = 0;
+            foreach (double grade in this.grades)
+            {
+                lowestGrade = Math.Min(lowestGrade, grade);
+                highestGrade = Math.Max(highestGrade, grade);
+                gradetmp += grade;
+            }
+
+            Statistic stat = new Statistic();
+            stat.Average = gradetmp / (this.grades.Count);
+            stat.Highest = highestGrade;
+            stat.Lowest = lowestGrade;
+
+            return stat;
         }
 
         public void ShowStatistics()
@@ -33,6 +54,8 @@ namespace gradebook
             Console.WriteLine($"Minimum Grade: {lowestGrade:N1}");
             Console.WriteLine($"Maximum Grade: {highestGrade:N1}");
             Console.WriteLine($"Average Grade: {gradetmp/(this.grades.Count):N1}");
+
+            
 
         }
         
