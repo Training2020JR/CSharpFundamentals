@@ -5,6 +5,8 @@ using System.Transactions;
 
 namespace gradebook
 {
+
+
     class Program
     {
         static void Main(string[] args)
@@ -43,6 +45,12 @@ namespace gradebook
             }
             Console.WriteLine($"5) Avg Result:{result2/grades.Count:N3}");
 
+
+            var book = new Book("Book ABC");
+            book.AddGrade(45.2);
+            book.AddGrade(15.2);
+            book.AddGrade(25.2);
+            book.ShowStatistics();
 
 
             if (args.Length > 0)
