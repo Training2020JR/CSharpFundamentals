@@ -1,0 +1,13 @@
+C:\Src\CSharpFundamentals\src\gradebook\bin\Debug\netcoreapp3.1\gradebook.exe
+C:\Src\CSharpFundamentals\src\gradebook\bin\Debug\netcoreapp3.1\gradebook.deps.json
+C:\Src\CSharpFundamentals\src\gradebook\bin\Debug\netcoreapp3.1\gradebook.runtimeconfig.json
+C:\Src\CSharpFundamentals\src\gradebook\bin\Debug\netcoreapp3.1\gradebook.runtimeconfig.dev.json
+C:\Src\CSharpFundamentals\src\gradebook\bin\Debug\netcoreapp3.1\gradebook.dll
+C:\Src\CSharpFundamentals\src\gradebook\bin\Debug\netcoreapp3.1\gradebook.pdb
+C:\Src\CSharpFundamentals\src\gradebook\obj\Debug\netcoreapp3.1\gradebook.csprojAssemblyReference.cache
+C:\Src\CSharpFundamentals\src\gradebook\obj\Debug\netcoreapp3.1\gradebook.AssemblyInfoInputs.cache
+C:\Src\CSharpFundamentals\src\gradebook\obj\Debug\netcoreapp3.1\gradebook.AssemblyInfo.cs
+C:\Src\CSharpFundamentals\src\gradebook\obj\Debug\netcoreapp3.1\gradebook.csproj.CoreCompileInputs.cache
+C:\Src\CSharpFundamentals\src\gradebook\obj\Debug\netcoreapp3.1\gradebook.dll
+C:\Src\CSharpFundamentals\src\gradebook\obj\Debug\netcoreapp3.1\gradebook.pdb
+C:\Src\CSharpFundamentals\src\gradebook\obj\Debug\netcoreapp3.1\gradebook.genruntimeconfig.cache

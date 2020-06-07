@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SOZj+jmrzov/QIKAKqr0LqGhQO057rj5/Duxy3Hekw+ITPI9XOuAF6jvgheV5k0YlAH+IwH+W/uAmSrDdqtCAA==",
+  "success": true,
+  "projectFilePath": "C:\\Src\\CSharpFundamentals\\src\\gradebook\\gradebook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
