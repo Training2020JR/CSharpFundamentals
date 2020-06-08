@@ -46,11 +46,18 @@ namespace gradebook
             Console.WriteLine($"5) Avg Result:{result2/grades.Count:N3}");
 
 
-            var book = new Book("Book ABC");
+            var book = new InMemoryBook("Book ABC");
             book.AddGrade(45.2);
             book.AddGrade(15.2);
             book.AddGrade(25.2);
             book.ShowStatistics();
+
+            Statistic x1 = book.GetStatistics();
+
+            Console.WriteLine($"A) Average: {x1.Average:N1}");
+            Console.WriteLine($"B) Highest: {x1.Highest}");
+            Console.WriteLine($"C) Lowest: {x1.Lowest}");
+            Console.WriteLine($"D) Letter: {x1.letter}");
 
 
             if (args.Length > 0)
